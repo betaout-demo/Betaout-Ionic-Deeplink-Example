@@ -1,12 +1,20 @@
 # Ionic Framework Demo App
 
-This is a sample app with Deeplink integrated using Betaout SDK.
+This is a demo app built with the Ionic Framework that you can preview in the browser or clone and run locally on an emulator or device.
 
-# Setup
+# View it now
 
-1-  Please provide your API Key, projectID, senderID and customerID in MainActivity
-2-  Put Betaout aar file at 2 places viz inside libs folder under android directory and libs folder under android/cordova directory
-3-  Place your google-services.json got from Firebase console inside android directory
+https://ionic-in-action.github.io/ionic-demo-resort-app/www/
+
+# Run locally
+
+This assumes you already have an emulator setup for iOS or Android. Substitute `ios` for `android` below to use Android.
+
+    npm install -g ionic cordova
+    git clone https://github.com/ionic-in-action/ionic-demo-resort-app.git
+    cd ionic-demo-resort-app
+    ionic platform add ios
+    ionic emulate ios
 
 # LICENSE
 

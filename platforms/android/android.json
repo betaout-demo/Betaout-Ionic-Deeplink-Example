@@ -1,0 +1,39 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"BetaoutWrapper\"><param name=\"android-package\" value=\"cordova.plugin.betaout.BetaoutWrapper\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-betaout": {
+            "PACKAGE_NAME": "com.ionicinaction.demo"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "id": "cordova-plugin-betaout.BetaoutWrapper",
+            "file": "plugins/cordova-plugin-betaout/www/BetaoutWrapper.js",
+            "pluginId": "cordova-plugin-betaout",
+            "clobbers": [
+                "cordova.plugins.Betaout"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "cordova-plugin-betaout": "1.0.0"
+    }
+}

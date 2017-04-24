@@ -1,0 +1,30 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Betaout SDK Plugin for push notifications, geofencing, ecommerce activity tracking and user segmentation",
+  "types": "./types/index.d.ts",
+  "cordova": {
+    "id": "cordova-plugin-betaout",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://shubhamsharma67@bitbucket.org/betaout2/bo_ionic.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+	"push notifications",
+	"activity tracking",
+	"user segmentation",
+	"geofencing",
+	"deeplink"
+  ],
+  "author": "Betaout",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/betaout2/bo_ionic#readme"
+}

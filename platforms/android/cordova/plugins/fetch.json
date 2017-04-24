@@ -1,0 +1,10 @@
+{
+    "cordova-plugin-betaout": {
+        "source": {
+            "type": "local",
+            "path": "Betaout"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}
